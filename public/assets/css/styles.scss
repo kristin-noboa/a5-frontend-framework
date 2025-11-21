@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap");
+
+// Grayscale colors
+$grayscale-white: #ffffff;
+$grayscale-bg: #f7f8fc;
+$grayscale-border: #e4e6ef;
+$grayscale-gray: #9fa2b4;
+$grayscale-black: #252733;
+
+@import "bootstrap/scss/bootstrap";
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.statistics-block:hover {
+  .border {
+    border-color: $primary !important;
+  }
+  h3 {
+    color: $primary;
+  }
+  h5 {
+    color: $primary;
+  }
+
+  cursor: pointer;
+}
+
+.divide > article:not(:first-child),
+.divide > li:not(:first-child) {
+  border-top: 1px solid $grayscale-border;
+}
+
+.border-grayscale-border {
+  border-color: $grayscale-border;
+}
+
+.bg-grayscale-white {
+  background-color: $grayscale-white;
+}
+
+.bg-grayscale-bg {
+  background-color: $grayscale-bg;
+}
+
+.text-grayscale-gray {
+  color: $grayscale-gray;
+}
+
+.text-grayscale-black {
+  color: $grayscale-black;
+}
+
+.fs-7 {
+  font-size: 0.875rem;
+  line-height: 1rem;
+}

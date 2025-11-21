@@ -1,0 +1,43 @@
+/* CUSTOM STYLES */
+
+/* Grayscale font, border and background colours */
+.border-grayscale-border {
+  border-color: #e4e6ef;
+}
+
+.bg-grayscale-white {
+  background-color: #ffffff;
+}
+
+.bg-grayscale-bg {
+  background-color: #f7f8fc;
+}
+
+.bg-grayscale-selected {
+  background-color: #3f4049;
+}
+
+.text-grayscale-gray {
+  color: #9fa2b4;
+}
+
+.text-grayscale-black {
+  color: #252733;
+}
+
+/* New font sizing for smallest text sizes */
+.fs-7 {
+  font-size: 0.875rem;
+  line-height: 1rem;
+}
+
+.fs-8 {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+/* Small image sizing for logo and profile picture */
+.small-image {
+  width: 30px;
+  height: 30px;
+}
