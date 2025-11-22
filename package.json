@@ -4,8 +4,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "lite-server --baseDir=\"public\"",
-    "watch": "sass --watch src/scss:public/assets/css",
-    "start": "concurrently \"npm run dev\" \"npm run watch\""
+    "watchStyle": "npx sass public/scss/style.scss public/css/style.css --watch",
+    "watchBootstrap": "npx sass public/scss/bootstrap.scss public/css/bootstrap.css --watch",
+    "start": "concurrently \"npm run dev\" \"npm run watchStyle\" \"npm run watchBootstrap\""
   },
   "keywords": [],
   "author": "",

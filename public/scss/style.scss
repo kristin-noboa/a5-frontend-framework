@@ -1,4 +1,5 @@
 /* CUSTOM STYLES */
+
 /* Grayscale font, border and background colours */
 .border-grayscale-border {
   border-color: #e4e6ef;
@@ -46,5 +47,6 @@ a {
 }
 
 /* Media query for mobile-first */
+@media (min-width: 576px) {
 
-/*# sourceMappingURL=style.css.map */
+}
